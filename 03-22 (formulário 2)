@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+
+    <header>
+        <h1>Formulário de Contato</h1>
+    </header>
+    <main>
+        <form action="acao.html" method="post" enctype="multipart/form-data">
+            <label>Nome: </label>
+            <br>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label>Email: </label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label>Mensagem: </label>
+            <br>
+            <textarea type="text" name= "mensagem" rows="10" cols="70" minlenght="30" maxlenght="500"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+    
+</body>
+</html>
