@@ -10,7 +10,7 @@ body {
 a:hover,
 button:hover {
     color: #fff;
-    background-color: #007bff;
+    background-color: #f84b85;
 }
 
 ul {
@@ -19,7 +19,7 @@ ul {
 
 section {
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #b868ee;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -48,17 +48,33 @@ img:hover {
 }
 
 button {
-    border: 2px solid #007bff;
+    border: 2px solid #f84b85;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 img:hover {
     transform: translateX(5px);
 }
 
-h1, h2 {
-    color: #007bff;
+h1 {
+    color: #dd0b6d;
+    text-align: center;
+}
+
+h2 {
+    color: #f84b85;
 }
 
 img:hover {
